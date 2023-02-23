@@ -8,3 +8,7 @@ const matriz = [
 const rta = matriz.flat(3);
 
 console.log(rta);
+
+const array = [['🐸','🐱'],'🐹', ['🐯']]; 
+const rta1 = array.flat();
+console.log(rta1);

@@ -14,7 +14,9 @@ const newArray = letters.map(letter => letter + '++');
 console.log('original ', letters);
 console.log('New Array ', newArray);
 
-
+const array = ['a', 'bb', 'ccc']; 
+const rta = array.map(item => item.length);
+console.log(rta);
 
 
 
